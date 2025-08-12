@@ -621,9 +621,10 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
                   </p>
                   <p className="text-sm font-bold">
                     Zapisy do Synergii przyjmowane są mailowo lub telefonicznie:
-synergia.lokalna@um.warszawa.pl
-(22)2776212, (22)2776217
-                  </p>
+
+                  </p> <p className="text-sm mt-1">
+                  synergia.lokalna@um.warszawa.pl
+(22)2776212, (22)2776217  </p> 
                 </div>
               </div>
 
