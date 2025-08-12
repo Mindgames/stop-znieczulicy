@@ -565,6 +565,8 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
 
           <img
             src="/banner_inner.jpg"
+            loading="lazy"
+            decoding="async"
             className="max-w-4xl mx-auto mb-10"
             style={{ height: "auto", maxWidth: "100%" }}
           ></img>
