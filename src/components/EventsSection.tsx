@@ -137,7 +137,8 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
           time: "14:30",
           speaker: "mgr Tomasz Prałat - Uniwersytet Civitas",
           title: "Rola liderów opinii i influencerów w walce z obojętnością.",
-          description: "",
+          description:
+            "W dobie wszechobecnych mediów społecznościowych liderzy opinii i influencerzy wywierają rzeczywisty wpływ na postawy, emocje i decyzje społeczne. Wykład porusza zagadnienie ich roli jako współczesnych katalizatorów zmian społecznych tj. osób, które potrafią przełamywać bierność, reagować na kryzysy oraz inicjować istotne debaty publiczne. Omówione zostaną różnorakie typy liderów opinii wraz z mechanizmami ich oddziaływania. Przedstawione zostaną również konkretne przykłady kampanii społecznych, w których głos influencerów przyczynił się do mobilizacji społeczności i pobudzenia zaangażowania społeczności.",
         },
         {
           id: "13-2",
@@ -244,7 +245,8 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
           time: "17:30 - 20:00",
           speaker: "Wyszkoleni.com",
           title: "Szkolenie z pierwszej pomocy (z użyciem fantomów).",
-          description: "To nie jest kolejna teoria do zapomnienia – to praktyczne, życiowe umiejętności, które mogą uratować komuś życie.\n\nPodczas szkolenia dowiesz się:\n\n•⁠  ⁠jak udzielić pierwszej pomocy w sytuacjach nagłych – zarówno dorosłym, jak i dzieciom,\n\n- co zrobić krok po kroku w napadzie drgawek uogólnionych, zadławieniu, zawale serca czy nagłym zatrzymaniu krążenia,\n\n•⁠  ⁠co mówi prawo: kiedy masz obowiązek pomóc i jak jesteś chroniony/a jako osoba udzielająca pomocy.\n\nSzkolenie łączy część teoretyczną z praktycznymi ćwiczeniami, które pozwolą Ci poczuć się pewniej i bezpieczniej w sytuacji kryzysowej – gdy czyjeś życie będzie zależało od Twojego działania.\n\nUdział w szkoleniu jest bezpłatny, ale obowiązują zapisy.",
+          description:
+            "To nie jest kolejna teoria do zapomnienia – to praktyczne, życiowe umiejętności, które mogą uratować komuś życie.\n\nPodczas szkolenia dowiesz się:\n\n•⁠  ⁠jak udzielić pierwszej pomocy w sytuacjach nagłych – zarówno dorosłym, jak i dzieciom,\n\n- co zrobić krok po kroku w napadzie drgawek uogólnionych, zadławieniu, zawale serca czy nagłym zatrzymaniu krążenia,\n\n•⁠  ⁠co mówi prawo: kiedy masz obowiązek pomóc i jak jesteś chroniony/a jako osoba udzielająca pomocy.\n\nSzkolenie łączy część teoretyczną z praktycznymi ćwiczeniami, które pozwolą Ci poczuć się pewniej i bezpieczniej w sytuacji kryzysowej – gdy czyjeś życie będzie zależało od Twojego działania.\n\nUdział w szkoleniu jest bezpłatny, ale obowiązują zapisy.",
           registrationUrl:
             "https://docs.google.com/forms/d/e/1FAIpQLSelm2MrtWRn71uVAwtckdQ6oyW7--eQ4_uNQNgb3SgX1Ugltw/viewform?usp=header",
         },
@@ -290,7 +292,8 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
           time: "17:30 - 20:00",
           speaker: "Wyszkoleni.com",
           title: "Szkolenie z pierwszej pomocy (z użyciem fantomów).",
-          description: "To nie jest kolejna teoria do zapomnienia – to praktyczne, życiowe umiejętności, które mogą uratować komuś życie.\n\nPodczas szkolenia dowiesz się:\n\n•⁠  ⁠jak udzielić pierwszej pomocy w sytuacjach nagłych – zarówno dorosłym, jak i dzieciom,\n\n- co zrobić krok po kroku w napadzie drgawek uogólnionych, zadławieniu, zawale serca czy nagłym zatrzymaniu krążenia,\n\n•⁠  ⁠co mówi prawo: kiedy masz obowiązek pomóc i jak jesteś chroniony/a jako osoba udzielająca pomocy.\n\nSzkolenie łączy część teoretyczną z praktycznymi ćwiczeniami, które pozwolą Ci poczuć się pewniej i bezpieczniej w sytuacji kryzysowej – gdy czyjeś życie będzie zależało od Twojego działania.\n\nUdział w szkoleniu jest bezpłatny, ale obowiązują zapisy.",
+          description:
+            "To nie jest kolejna teoria do zapomnienia – to praktyczne, życiowe umiejętności, które mogą uratować komuś życie.\n\nPodczas szkolenia dowiesz się:\n\n•⁠  ⁠jak udzielić pierwszej pomocy w sytuacjach nagłych – zarówno dorosłym, jak i dzieciom,\n\n- co zrobić krok po kroku w napadzie drgawek uogólnionych, zadławieniu, zawale serca czy nagłym zatrzymaniu krążenia,\n\n•⁠  ⁠co mówi prawo: kiedy masz obowiązek pomóc i jak jesteś chroniony/a jako osoba udzielająca pomocy.\n\nSzkolenie łączy część teoretyczną z praktycznymi ćwiczeniami, które pozwolą Ci poczuć się pewniej i bezpieczniej w sytuacji kryzysowej – gdy czyjeś życie będzie zależało od Twojego działania.\n\nUdział w szkoleniu jest bezpłatny, ale obowiązują zapisy.",
           registrationUrl:
             "https://docs.google.com/forms/d/e/1FAIpQLScZJd4EWhbH39aXMpHv8ei0pbfdhzdVv6cQ3cLAs0SHatzvNg/viewform?usp=header",
         },
@@ -573,50 +576,57 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
             <div className="space-y-6 text-center">
               <p className="text-sm transition-all duration-300">
                 Kursy organizujemy wraz ze{" "}
-                <span className="font-bold">Strażą Miejską m.st. Warszawy</span>{" "}
-                oraz <span className="font-bold">Dragon's Den Fight Club</span>.
-              </p>
-
-              <p className="text-sm transition-all duration-300">
-                Liczba miejsc jest ograniczona, dlatego prosimy: zapisz się
-                tylko wtedy, gdy naprawdę planujesz wziąć udział – pozwólmy
-                skorzystać innym zdecydowanym osobom i zadbajmy o to, by nie
-                powielać stereotypu, że bezpłatne wydarzenia można traktować
-                mniej poważnie.
-              </p>
-
-              <p className="text-sm transition-all duration-300">
-                Nasi partnerzy angażują się pro bono - niech ich wysiłek nie
-                idzie na marne.
+                <span className="font-bold">Strażą Miejską m.st. Warszawy</span>
+                , <span className="font-bold">Dragon's Den Fight Club</span> i{" "}
+                <span className="font-bold">Papaj Gym</span>.
               </p>
 
               <p className="text-sm font-bold transition-all duration-300">
-                Szkolenia są przeznaczone wyłącznie dla osób pełnoletnich i będą
-                odbywały się w cyklu 4 spotkań, w każdej z naszych Warszawskich
-                lokalizacji.
+                Kiedy i gdzie odbędą się szkolenia?
               </p>
 
-              <p className="text-sm transition-all duration-300">
-                <span className="text-red-500 font-bold">Kiedy?</span>{" "}
-                <span className="text-black font-bold">
-                  2, 9, 16 i 26 września 2025
-                </span>
-                . Zajęcia będą trwały jednorazowo po 1,5h od 17 lub 17:30 do 19
-                i 19:30
-              </p>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <p className="text-sm font-bold mb-2">
+                    🔸 Warszawa - Wola - 2, 9, 16 i 26 września 2025
+                  </p>
+                  <p className="text-sm mb-1">SM ul. Kajetana Sołtyka 8/10</p>
+                  <p className="text-sm">⏰ godziny: 17:00-18:30</p>
+                </div>
+
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <p className="text-sm font-bold mb-2">
+                    🔸 Warszawa - Mokotów - 2, 9, 16, 23 września 2025
+                  </p>
+                  <p className="text-sm mb-1">
+                    Dragon's Den, ul. Cybernetyki 7A, bud. Luminar, 2 piętro
+                  </p>
+                  <p className="text-sm">⏰ godziny: 19:00-20:30</p>
+                </div>
+
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <p className="text-sm font-bold mb-2">
+                    🔸 Warszawa - Praga Północ - 18, 19 i 25, 26 września 2025
+                  </p>
+                  <p className="text-sm mb-1">
+                    Warszawskie Laboratorium Innowacji Społecznych „Synergia"
+                  </p>
+                  <p className="text-sm mb-1">
+                    ⏰ godziny: 18 i 25.09 (czwartki) godzina 19:30
+                  </p>
+                  <p className="text-sm mb-1">
+                    19 i 26.09 (piątki) godzina 18:00
+                  </p>
+                  <p className="text-sm font-bold">
+                    Zapisy do Synergii przyjmowane są telefonicznie: 22 277 62
+                    00
+                  </p>
+                </div>
+              </div>
 
               <p className="text-sm transition-all duration-300">
-                Decyduje kolejność zgłoszeń, a każda osoba zakwalifikowana
-                otrzyma od nas SMS z potwierdzeniem w ciągu 48 godzin. Jeśli nie
-                dostaniesz informacji zwrotnej, oznacza to, że miejsca się
-                wyczerpały, choć postaramy się odpowiedzieć każdej
-                zainteresowanej osobie.
-              </p>
-
-              <p className="text-sm transition-all duration-300">
-                Zapisy trwają{" "}
-                <span className="font-bold">do 15 sierpnia 2025</span> – nie
-                odkładaj decyzji na ostatnią chwilę!
+                Decyduje kolejność zgłoszeń - każde szkolenie będzie wymagało
+                potwierdzenia przez SMS.
               </p>
 
               <div className="text-center mt-8 space-y-4">
