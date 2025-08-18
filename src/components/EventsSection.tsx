@@ -590,7 +590,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <p className="text-sm font-bold mb-2">
-                    🔸 Warszawa - Wola - 2, 9, 16 i 26 września 2025
+                    🔸 Warszawa - Wola - 2, 9, 16 i 23 września 2025
                   </p>
                   <p className="text-sm mb-1">SM ul. Kajetana Sołtyka 8/10</p>
                   <p className="text-sm">⏰ godziny: 17:00-18:30</p>
