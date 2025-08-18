@@ -611,7 +611,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
                     🔸 Warszawa - Praga Północ - 18, 19 i 25, 26 września 2025
                   </p>
                   <p className="text-sm mb-1">
-                    Warszawskie Laboratorium Innowacji Społecznych „Synergia"
+                    Warszawskie Laboratorium Innowacji Społecznych „Synergia" ul. Markowska 16
                   </p>
                   <p className="text-sm mb-1">
                     ⏰ godziny: 18 i 25.09 (czwartki) godzina 19:30
