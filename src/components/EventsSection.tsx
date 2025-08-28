@@ -312,8 +312,8 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
           <p className="text-base max-w-4xl mx-auto leading-relaxed text-gray-700 mb-8 transition-all duration-500">
            Wydarzenie jest otwarte, ale jeśli planujesz przyjść – daj nam znać przez krótki formularz, abyśmy mogli przygotować odpowiednią liczbę miejsc i materiałów:
 https://forms.cloud.microsoft/e/s7X6HYHwmM
-*Osobne zapisy przez stronę internetową obowiązują na szkolenia z samoobrony -> moduł samoobrona
-oraz na szkolenia z pierwszej pomocy oraz na warsztat Anny Zielenkiewicz -> rozwijane menu w sekcji kalendarz.
+*Osobne zapisy przez stronę internetową obowiązują na szkolenia z samoobrony -&gt; moduł samoobrona
+oraz na szkolenia z pierwszej pomocy oraz na warsztat Anny Zielenkiewicz -&gt; rozwijane menu w sekcji kalendarz.
           </p>
 
           <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
