@@ -88,6 +88,15 @@ const Header: React.FC = () => {
                 Jak reagować
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
               </Link>
+              <Link
+                to="/gdzie-szukac-pomocy"
+                className={`${
+                  isScrolled ? "text-gray-800" : "text-white"
+                } hover:text-red-500 transition-all duration-300 whitespace-nowrap text-xs relative group`}
+              >
+                Gdzie szukać pomocy
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
+              </Link>
             </div>
 
             <button
@@ -152,6 +161,13 @@ const Header: React.FC = () => {
               Jak reagować
             </Link>
             <Link
+              to="/gdzie-szukac-pomocy"
+              className="text-white hover:text-red-500 transition-all duration-300 transform hover:scale-110"
+              onClick={() => setIsOpen(false)}
+            >
+              Gdzie szukać pomocy
+            </Link>
+            <Link
               to="/registration"
               className="bg-red-500 text-white px-4 py-2 rounded-full text-xs hover:bg-red-600 transition-all duration-300 transform hover:scale-110 hover:shadow-lg"
               onClick={() => setIsOpen(false)}
@@ -161,6 +177,7 @@ const Header: React.FC = () => {
           </nav>
         </div>
       )}
+      {/* Help modal removed; using subpage link only */}
     </>
   );
 };
