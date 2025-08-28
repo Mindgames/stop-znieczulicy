@@ -309,12 +309,24 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
             Kalendarz - wykłady i warsztaty
           </h2>
           <div className="w-20 h-1 bg-red-500 mx-auto mb-10 transition-all duration-500 hover:w-32"></div>
-          <p className="text-base max-w-4xl mx-auto leading-relaxed text-gray-700 mb-8 transition-all duration-500">
-           Wydarzenie jest otwarte, ale jeśli planujesz przyjść – daj nam znać przez krótki formularz, abyśmy mogli przygotować odpowiednią liczbę miejsc i materiałów:
-https://forms.cloud.microsoft/e/s7X6HYHwmM
-*Osobne zapisy przez stronę internetową obowiązują na szkolenia z samoobrony -&gt; moduł samoobrona
-oraz na szkolenia z pierwszej pomocy oraz na warsztat Anny Zielenkiewicz -&gt; rozwijane menu w sekcji kalendarz.
-          </p>
+          <div className="text-base max-w-4xl mx-auto leading-relaxed text-gray-700 mb-8 transition-all duration-500">
+            <p>
+              Wydarzenie jest otwarte, ale jeśli planujesz przyjść – daj nam znać przez krótki formularz, abyśmy mogli przygotować odpowiednią liczbę miejsc i materiałów:{' '}
+              <a
+                href="https://forms.cloud.microsoft/e/s7X6HYHwmM"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 underline break-all"
+              >
+                https://forms.cloud.microsoft/e/s7X6HYHwmM
+              </a>
+            </p>
+            <p className="mt-3">*Osobne zapisy obowiązują na:</p>
+            <p>szkolenia z samoobrony -&gt; moduł samoobrona</p>
+            <p>
+              szkolenia z pierwszej pomocy oraz na warsztat Anny Zielenkiewicz -&gt; rozwijane menu w sekcji kalendarz.
+            </p>
+          </div>
 
           <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
             <div className="text-center bg-white rounded-lg p-8 shadow-sm hover:shadow-lg transition-all duration-500 hover-lift animate-slide-in-left">
