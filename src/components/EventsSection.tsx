@@ -657,7 +657,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
                       rel="noopener noreferrer"
                       className="inline-block bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 hover-lift hover:shadow-lg transform hover:scale-105"
                     >
-                      Lista rezerwowa - Wola
+                      Zapisz się - Wola
                     </a>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
