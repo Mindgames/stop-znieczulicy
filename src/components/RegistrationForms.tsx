@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Check, ChevronDown, CalendarDays, Users, Building } from 'lucide-react';
+import { Check, CalendarDays, Users, Building } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
 
 interface FormValues {

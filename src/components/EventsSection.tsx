@@ -1,8 +1,6 @@
-import { Calendar, ChevronDown, ChevronUp, MapPin, User } from "lucide-react";
+import { Calendar, ChevronDown, ChevronUp, MapPin } from "lucide-react";
 import { Instagram, Youtube } from "lucide-react";
 import React, { useState } from "react";
-
-import { Link } from "react-router-dom";
 
 const EventsSection: React.FC = () => {
   const [expandedLectures, setExpandedLectures] = useState<string[]>([]);
@@ -121,9 +119,9 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
       } else {
         alert("Wystąpił błąd podczas wysyłania formularza. Spróbuj ponownie.");
       }
-    } catch (error) {
-      alert("Wystąpił błąd podczas wysyłania formularza. Spróbuj ponownie.");
-    } finally {
+      } catch {
+        alert("Wystąpił błąd podczas wysyłania formularza. Spróbuj ponownie.");
+      } finally {
       setIsSubmitting(false);
     }
   };
@@ -257,7 +255,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
       lectures: [
         {
           id: "21-1",
-          time: "13:30",
+          time: "14:30",
           speaker: "Justyna Bakalarska-Stankiewicz - Uniwersytet Civitas",
           title:
             "Niewidzialni obok nas: jak wyuczone przekonania wpływają na reakcje wobec osób potrzebujących.",
@@ -266,7 +264,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
         },
         {
           id: "21-2",
-          time: "14:30",
+          time: "15:30",
           speaker: "Justyna Bakalarska-Stankiewicz - Uniwersytet Civitas",
           title:
             "Społeczna wrażliwość wobec osób z niepełnosprawnościami: bariery, stereotypy, ignorowanie.",
@@ -275,24 +273,13 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
         },
         {
           id: "21-3",
-          time: "15:30",
-          speaker: "Cezary Ciszewski - Uniwersytet Warszawski",
-          title: "Znieczulica wobec osób uzależnionych.",
-          description: "",
-        },
-        {
-          id: "21-4",
           time: "16:30",
           speaker: "Komenda Stołeczna Policji",
           title: "Jak bezpiecznie reagować?",
-          description: "Spotkanie poprowadzą oficerowi policji z Komendy Stołecznej Policji. Poruszą zagadnienia związane z formami reagowania na przemoc. Jak skutecznie i bezpiecznie odnaleźć się w sytuacji kryzysowej, kogo w jaki sposób powiadomić, w jaki sposób nie należy reagować. Przekażą szereg wskazówek dla osób, które mogą paść ofiarą w środkach transportu. Oddzielny panel poświęcony zostanie zagrożeniom o charakterze terrorystycznym, a także fizycznym atakom.  
-Udział wezmą:
-·        podkom. Jacek Wiśniewski, Komenda Stołeczna Policji
-·        podkom. Łukasz Konieczniak, Komenda Stołeczna Policji
-·        oficer Samodzielnego Pododdziału Kontrterrorystycznego Policji",
+          description: "Spotkanie poprowadzą oficerowi policji z Komendy Stołecznej Policji. Poruszą zagadnienia związane z formami reagowania na przemoc. Jak skutecznie i bezpiecznie odnaleźć się w sytuacji kryzysowej, kogo w jaki sposób powiadomić, w jaki sposób nie należy reagować. Przekażą szereg wskazówek dla osób, które mogą paść ofiarą w środkach transportu. Oddzielny panel poświęcony zostanie zagrożeniom o charakterze terrorystycznym, a także fizycznym atakom.\nUdział wezmą:\n·        podkom. Jacek Wiśniewski, Komenda Stołeczna Policji\n·        podkom. Łukasz Konieczniak, Komenda Stołeczna Policji\n·        oficer Samodzielnego Pododdziału Kontrterrorystycznego Policji",
         },
         {
-          id: "21-5",
+          id: "21-4",
           time: "17:30 - 20:00",
           speaker: "Wyszkoleni.com",
           title: "Szkolenie z pierwszej pomocy (z użyciem fantomów).",
@@ -394,14 +381,14 @@ Udział wezmą:
                         key={lectureIndex}
                         className="border-b border-gray-100 last:border-0 pb-4 last:pb-0 transition-all duration-300"
                       >
-                        <div
-                          className="cursor-pointer hover:bg-gray-50 p-2 rounded text-center transition-all duration-300"
-                          onClick={() => {
-                            lecture.description.length > 0
-                              ? toggleLecture(lecture.id)
-                              : null;
-                          }}
-                        >
+                          <div
+                            className="cursor-pointer hover:bg-gray-50 p-2 rounded text-center transition-all duration-300"
+                            onClick={() => {
+                              if (lecture.description.length > 0) {
+                                toggleLecture(lecture.id);
+                              }
+                            }}
+                          >
                           <div className="mb-2">
                             <span className="font-bold text-red-500 text-sm">
                               {lecture.time}
@@ -482,14 +469,14 @@ Udział wezmą:
                         key={lectureIndex}
                         className="border-b border-gray-100 last:border-0 pb-4 last:pb-0 transition-all duration-300"
                       >
-                        <div
-                          className="cursor-pointer hover:bg-gray-50 p-2 rounded text-center transition-all duration-300"
-                          onClick={() => {
-                            lecture.description.length > 0
-                              ? toggleLecture(lecture.id)
-                              : null;
-                          }}
-                        >
+                          <div
+                            className="cursor-pointer hover:bg-gray-50 p-2 rounded text-center transition-all duration-300"
+                            onClick={() => {
+                              if (lecture.description.length > 0) {
+                                toggleLecture(lecture.id);
+                              }
+                            }}
+                          >
                           <div className="mb-2">
                             <span className="font-bold text-red-500 text-sm">
                               {lecture.time}
@@ -640,9 +627,11 @@ Udział wezmą:
                   <p className="text-sm font-bold">
                     Zapisy do Synergii przyjmowane są mailowo lub telefonicznie:
 
-                  </p> <p className="text-sm mt-1">
-                  synergia.lokalna@um.warszawa.pl
-(22)2776212, (22)2776217  </p> 
+                  </p>
+                  <p className="text-sm mt-1">
+                    synergia.lokalna@um.warszawa.pl
+                    (22)2776212, (22)2776217
+                  </p>
                 </div>
               </div>
 
