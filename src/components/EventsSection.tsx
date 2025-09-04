@@ -176,7 +176,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
           time: "14:30",
           speaker: "Wojciech Mościbrodzki - Uniwersytet Civitas",
           title: "Nienawiść i pogarda w świecie Sztucznej Inteligencji.",
-          description: "",
+          description: "Czy sztuczna inteligencja pomaga nam rozwiązywać nasze problemy, czy też przeciwnie: sprawia, że jesteśmy coraz bardziej pełni nienawiści i pogardy. Czy ze zjawiskami tymi można próbować walczyć? A może jesteśmy skazani na porażkę, bo nasze mózgi są nadal zbyt gadzie i prymitywne, by dawać nam nowoczesne narzędzia IT. Jak żyć w świecie, w którym powszechny dostęp do źródeł nie przybliża nas do Prawdy, lecz do Postprawdy?",
         },
         {
           id: "14-2",
@@ -184,7 +184,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
           speaker: "Wojciech Mościbrodzki - Uniwersytet Civitas",
           title:
             "Obcy, masoneria, żydzi, cioty, oszołomy. Komu opłaca się zarządzanie strachem?",
-          description: "",
+          description: "Współcześnie bardzo łatwo jest wykrzyczeć w świat słowa, które wstydzilibyśmy się powiedzieć komuś w twarz. Anonimowość, plemienność, przyzwolenie dla zachowań ekstremalnych - to jest obraz naszej codzienności. Pragniemy być zauważeni, więc krzyczymy coraz głośniej i coraz bardziej ekstremalnie. Cisza jest passe, a milczenie jest odbierane jako przyzwolenie. Czy zatem nie ma już szans na normalną rozmowę?",
         },
         {
           id: "14-3",
