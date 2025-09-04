@@ -285,7 +285,11 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
           time: "16:30",
           speaker: "Komenda Stołeczna Policji",
           title: "Jak bezpiecznie reagować?",
-          description: "",
+          description: "Spotkanie poprowadzą oficerowi policji z Komendy Stołecznej Policji. Poruszą zagadnienia związane z formami reagowania na przemoc. Jak skutecznie i bezpiecznie odnaleźć się w sytuacji kryzysowej, kogo w jaki sposób powiadomić, w jaki sposób nie należy reagować. Przekażą szereg wskazówek dla osób, które mogą paść ofiarą w środkach transportu. Oddzielny panel poświęcony zostanie zagrożeniom o charakterze terrorystycznym, a także fizycznym atakom.  
+Udział wezmą:
+·        podkom. Jacek Wiśniewski, Komenda Stołeczna Policji
+·        podkom. Łukasz Konieczniak, Komenda Stołeczna Policji
+·        oficer Samodzielnego Pododdziału Kontrterrorystycznego Policji",
         },
         {
           id: "21-5",
