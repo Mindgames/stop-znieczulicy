@@ -314,14 +314,6 @@ export const speakers = [
       "Jestem wykładowcą akademickim, politologiem i artystą. Fascynuje mnie technologia, choć moje serce wciąż bije mocniej do tradycyjnej grafiki warsztatowej. Interesuję się człowiekiem – jego rolą w społeczeństwie, granicami i odpowiedzialnością. Więcej o mojej pracy i twórczości można znaleźć na stronie: www.wojmos.com",
   },
   {
-    id: 5,
-    name: "Cezary Ciszewski",
-    title: "Reżyser, Dziennikarz, Fotograf, Aktywista społeczny",
-    photo: "/partners/speakers/cezary-ciszewski.jpg",
-    description:
-      "Jestem polskim reżyserem, dziennikarzem, fotografem, aktywistą społecznym oraz wykładowcą na Uniwersytecie Warszawskim. Pełnię funkcję prezesa Fundacji Monte Wideo i Foto (Tożsamość Poprzez Obraz). Ukończyłem Łódzką Szkołę Filmową. Propaguję ideę telewizji w telefonie komórkowym i jestem autorem pierwszego na świecie programu telewizyjnego nagranego telefonem komórkowym – Miasto w Komie (2007). Wykładam na Wydziale Dziennikarstwa, Informacji i Bibliologii Uniwersytetu Warszawskiego, na specjalizacji dokumentalistyka. Byłem publicystą emigracyjnym – w latach 1990–1996 pracowałem jako korespondent zagraniczny Polskiego Radia i Radia Kolor. Jestem założycielem studia Wolny Mikrofon (podcast ADHD UNDERGROUND). Jestem także autorem audioserii dokumentalnej Czarny Romans (Audioteka 2021).",
-  },
-  {
     id: 6,
     name: "Ewa Majka-Janiak",
     title: "Kuratorka specjalistka do spraw rodzinnych",
