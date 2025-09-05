@@ -152,9 +152,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
           speaker: "Anna Zielenkiewicz / Sebastian Grzywacz",
           title: "PTSD i pierwsza pomoc emocjonalna / Dotyk bez pytania – niewidzialne granice niewidomych",
           description:
-            "Co to jest zespół stresu pourazowego (PTSD), jakie są kryteria diagnostyczne. Czym charakteryzuje się pierwsza pomoc emocjonalna i jakie efekty przynosi. Jaka jest rola osób wspierających ludzi doświadczających przemocy.
-
-Wystąpienie Sebastiana Grzywacza – przedsiębiorcy, trenera motywacyjnego i osoby niewidomej – porusza problem często niedostrzeganej znieczulicy wobec osób z niepełnosprawnością wzroku. W swoim wystąpieniu opowie o przekraczaniu granic fizycznych i emocjonalnych, z jakim mierzą się niewidomi na co dzień – od nagłego łapania za rękę, przez przesuwanie bez zgody, aż po ignorowanie potrzeby samodzielności. Wykład to zaproszenie do refleksji nad tym, jak okazywać pomoc z empatią i szacunkiem – nie „dla kogoś”, ale „z kimś”.",
+            "Co to jest zespół stresu pourazowego (PTSD), jakie są kryteria diagnostyczne. Czym charakteryzuje się pierwsza pomoc emocjonalna i jakie efekty przynosi. Jaka jest rola osób wspierających ludzi doświadczających przemocy. / Wystąpienie Sebastiana Grzywacza – przedsiębiorcy, trenera motywacyjnego i osoby niewidomej – porusza problem często niedostrzeganej znieczulicy wobec osób z niepełnosprawnością wzroku. W swoim wystąpieniu opowie o przekraczaniu granic fizycznych i emocjonalnych, z jakim mierzą się niewidomi na co dzień – od nagłego łapania za rękę, przez przesuwanie bez zgody, aż po ignorowanie potrzeby samodzielności. Wykład to zaproszenie do refleksji nad tym, jak okazywać pomoc z empatią i szacunkiem – nie „dla kogoś”, ale „z kimś”.",
         },
         {
           id: "13-4",
