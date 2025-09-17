@@ -240,7 +240,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
         },
         {
           id: "20-5",
-          time: "17:30 - 20:00",
+          time: "17:30 - 19:45",
           speaker: "Wyszkoleni.com",
           title: "Szkolenie z pierwszej pomocy (z użyciem fantomów).",
           description:
@@ -280,7 +280,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
         },
         {
           id: "21-4",
-          time: "17:30 - 20:00",
+          time: "17:30 - 19:45",
           speaker: "Wyszkoleni.com",
           title: "Szkolenie z pierwszej pomocy (z użyciem fantomów).",
           description:
