@@ -548,7 +548,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
             </p>
             <div className="flex flex-col md:flex-row justify-center gap-4">
               <a
-                href="https://www.instagram.com/stop_znieczulicy_2025/"
+                href="https://www.instagram.com/stop_znieczulicy_kampania/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-full text-sm hover:opacity-90 transition-all duration-300 hover-lift hover:shadow-lg transform hover:scale-105"

@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
               <a href="https://www.facebook.com/uniwersytetcivitas" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition-all duration-300 hover-scale">
                 <Facebook size={20} />
               </a>
-              <a href="https://www.instagram.com/stop_znieczulicy_2025/" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition-all duration-300 hover-scale">
+              <a href="https://www.instagram.com/stop_znieczulicy_kampania/" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition-all duration-300 hover-scale">
                 <Instagram size={20} />
               </a>
               <a href="https://www.youtube.com/user/CollegiumCivitasCC" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition-all duration-300 hover-scale">
