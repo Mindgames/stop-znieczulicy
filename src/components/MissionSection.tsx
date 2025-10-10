@@ -14,7 +14,7 @@ const MissionSection: React.FC = () => {
           </p>
           
           <p className="text-base max-w-4xl mx-auto leading-relaxed text-gray-700 text-center mb-6 transition-all duration-500">
-            <span className="text-red-500 font-medium">Znieczulica to zanik więzi społecznych.</span>
+            <span className="text-red-500 font-medium">Tworzymy fundację, by wzmacniać działania i zmieniać rzeczywistość na większą skalę. Zostań z nami.</span>
           </p>
         </div>
         
