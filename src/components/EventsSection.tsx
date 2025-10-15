@@ -1,5 +1,11 @@
-import { Calendar, ChevronDown, ChevronUp, MapPin } from "lucide-react";
-import { Instagram, Youtube } from "lucide-react";
+import {
+  Calendar,
+  ChevronDown,
+  ChevronUp,
+  MapPin,
+  Facebook,
+  Instagram,
+} from "lucide-react";
 import React, { useState } from "react";
 
 const EventsSection: React.FC = () => {
@@ -533,40 +539,46 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
             </div>
           </div>
 
-          <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-sm p-8 mb-10 hover:shadow-lg transition-all duration-500 hover-lift animate-fade-in">
-          <h3 className="text-lg font-bold mb-2 transition-all duration-300">
-  Znajdź nas w mediach społecznościowych
-</h3>
-<p className="text-sm mb-4 transition-all duration-300">
-  Dołącz do naszej społeczności i bądź na bieżąco z działaniami kampanii 
-  <strong className="text-red-600"> STOP Znieczulicy na Ulicy</strong>. 
-  Na naszych profilach publikujemy materiały edukacyjne, relacje z wydarzeń 
-  i historie osób, które nie przeszły obojętnie wobec krzywdy innych. 
-  Obserwuj nas i pomóż szerzyć ideę empatii i odpowiedzialności społecznej.
-</p>
+            <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-sm p-8 mb-10 hover:shadow-lg transition-all duration-500 hover-lift animate-fade-in">
+              <h3 className="text-lg font-bold mb-3 text-center transition-all duration-300">
+                Znajdź nas w mediach społecznościowych
+              </h3>
+              <div className="space-y-3 text-sm text-gray-700 mb-6 transition-all duration-300">
+                <p>
+                  Dołącz do naszej społeczności i bądź na bieżąco z działaniami kampanii{' '}
+                  <strong className="text-red-600">STOP Znieczulicy na Ulicy</strong>.
+                </p>
+                <p>
+                  Na naszych profilach publikujemy materiały edukacyjne, relacje z wydarzeń i historie osób, które nie przeszły
+                  obojętnie wobec krzywdy innych.
+                </p>
+                <p>Obserwuj nas i pomóż szerzyć ideę empatii oraz odpowiedzialności społecznej.</p>
+              </div>
 
-<div className="flex flex-col md:flex-row justify-center gap-4">
-  <a
-    href="https://www.instagram.com/stop_znieczulicy_kampania/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex items-center bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-full text-sm hover:opacity-90 transition-all duration-300 hover-lift hover:shadow-lg transform hover:scale-105"
-  >
-    <Instagram size={16} className="mr-2" />
-    Instagram
-  </a>
-  <a
-    href="https://www.facebook.com/profile.php?id=61579932839803"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex items-center bg-blue-600 text-white px-4 py-2 rounded-full text-sm hover:bg-blue-700 transition-all duration-300 hover-lift hover:shadow-lg transform hover:scale-105"
-  >
-    <Facebook size={16} className="mr-2" />
-    Facebook
-  </a>
-</div>
-          <img
-            src="/banner_inner.jpg"
+              <div className="flex flex-col md:flex-row justify-center gap-4">
+                <a
+                  href="https://www.instagram.com/stop_znieczulicy_kampania/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-full text-sm hover:opacity-90 transition-all duration-300 hover-lift hover:shadow-lg transform hover:scale-105"
+                >
+                  <Instagram size={16} className="mr-2" />
+                  Instagram
+                </a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61579932839803"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center bg-blue-600 text-white px-4 py-2 rounded-full text-sm hover:bg-blue-700 transition-all duration-300 hover-lift hover:shadow-lg transform hover:scale-105"
+                >
+                  <Facebook size={16} className="mr-2" />
+                  Facebook
+                </a>
+              </div>
+            </div>
+
+            <img
+              src="/banner_inner.jpg"
             loading="lazy"
             decoding="async"
             className="max-w-4xl mx-auto mb-10"
