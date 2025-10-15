@@ -334,7 +334,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
                   size={28}
                 />
                 <h3 className="text-lg font-bold transition-all duration-300">
-                  Kiedy?
+                  Kiedy odbyło się wydarzenie
                 </h3>
               </div>
               <p className="text-sm text-gray-700 transition-all duration-300">
@@ -351,7 +351,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
                   size={28}
                 />
                 <h3 className="text-lg font-bold transition-all duration-300">
-                  Gdzie?
+                  Gdzie odbyło się wydarzenie?
                 </h3>
               </div>
               <div className="text-sm text-gray-700 transition-all duration-300">
