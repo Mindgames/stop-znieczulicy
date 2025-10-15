@@ -1,4 +1,4 @@
-import { Instagram, Youtube } from "lucide-react";
+import { Facebook, Instagram } from "lucide-react";
 import React, { useEffect, useState } from "react";
 
 // Mock social media posts (in a real app, these would come from an API)
@@ -68,7 +68,7 @@ const CommunitySection: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-6 animate-fade-in">
           <h2 className="text-xl md:text-2xl font-bold mb-4 transition-all duration-500">
-            Ściana społeczności – #stopznieczulicy
+            Media społecznościowe
           </h2>
           <div className="w-20 h-1 bg-red-500 mx-auto mb-10 transition-all duration-500 hover:w-32"></div>
         </div>
@@ -88,9 +88,9 @@ const CommunitySection: React.FC = () => {
                       className="text-pink-500 mr-2 transition-all duration-300"
                     />
                   ) : (
-                    <Youtube
+                    <Facebook
                       size={18}
-                      className="text-red-500 mr-2 transition-all duration-300"
+                      className="text-blue-600 mr-2 transition-all duration-300"
                     />
                   )}
                   <span className="text-xs transition-all duration-300">
@@ -128,9 +128,18 @@ const CommunitySection: React.FC = () => {
         </div>
 
         <div className="mt-12 text-center animate-fade-in">
-          <p className="text-base mb-4 transition-all duration-300">
-            Dołącz do naszej społeczności
-          </p>
+          <div className="text-base mb-4 space-y-3 transition-all duration-300 leading-relaxed text-gray-700">
+            <p>
+              Dołącz do naszej społeczności i bądź na bieżąco z działaniami kampanii i fundacji.
+            </p>
+            <p>
+              Na naszych profilach publikujemy materiały edukacyjne, relacje z wydarzeń i historie osób,
+              które nie przeszły obojętnie wobec krzywdy innych.
+            </p>
+            <p>
+              Obserwuj nas i pomóż szerzyć ideę empatii i odpowiedzialności społecznej.
+            </p>
+          </div>
           <div className="flex justify-center space-x-4">
             <a
               href="https://www.instagram.com/stop_znieczulicy_kampania/"
@@ -142,13 +151,13 @@ const CommunitySection: React.FC = () => {
               Instagram
             </a>
             <a
-              href="https://www.youtube.com/user/CollegiumCivitasCC"
+              href="https://www.facebook.com/profile.php?id=61579932839803"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center bg-red-500 text-white px-4 py-2 rounded-full text-sm hover:bg-red-600 transition-all duration-300 hover-lift hover:shadow-lg transform hover:scale-105"
+              className="flex items-center bg-[#1877F2] text-white px-4 py-2 rounded-full text-sm hover:bg-[#0F5DC8] transition-all duration-300 hover-lift hover:shadow-lg transform hover:scale-105"
             >
-              <Youtube size={16} className="mr-2" />
-              YouTube
+              <Facebook size={16} className="mr-2" />
+              Facebook
             </a>
           </div>
         </div>
