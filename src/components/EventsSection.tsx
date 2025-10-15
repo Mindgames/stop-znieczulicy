@@ -298,6 +298,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-xl md:text-2xl font-bold mb-4 transition-all duration-500">
            <h2>
+  <h2>
   Kalendarz – wykłady i warsztaty
 </h2>
 <div className="w-20 h-1 bg-red-500 mx-auto mb-10 transition-all duration-500 hover:w-32"></div>
@@ -324,6 +325,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
     Archiwalne wydarzenia z kampanii znajdziesz poniżej. 
     Dziękujemy wszystkim uczestnikom i partnerom za wspólne działania przeciwko obojętności.
   </p>
+</div>
           <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
             <div className="text-center bg-white rounded-lg p-8 shadow-sm hover:shadow-lg transition-all duration-500 hover-lift animate-slide-in-left">
               <div className="flex items-center justify-center mb-4">
