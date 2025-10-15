@@ -44,12 +44,12 @@ const HeroSection: React.FC = () => {
             Zobacz, jak pomóc
           </Link>
           <a 
-            href="https://www.facebook.com/events/1184732123699709" 
+            href="https://www.facebook.com/profile.php?id=61579932839803" 
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white hover:bg-gray-100 text-gray-900 px-6 py-2 rounded-full text-sm font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover-lift"
           >
-            Zapisz się na wydarzenie
+            Facebook
           </a>
         </div>
         
