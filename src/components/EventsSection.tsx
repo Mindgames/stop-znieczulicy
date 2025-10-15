@@ -344,7 +344,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
             <div className="text-center bg-white rounded-lg p-8 shadow-sm hover:shadow-lg transition-all duration-500 hover-lift animate-slide-in-right">
               <div className="flex items-center justify-center mb-4">
                 <MapPin className="text-red-500 mr-3 transition-all duration-300" size={28} />
-                <h3 className="text-lg font-bold transition-all duration-300">Gdzie odbyło się wydarzenie?</h3>
+                <h3 className="text-lg font-bold transition-all duration-300">Gdzie odbyło się wydarzenie</h3>
               </div>
               <div className="text-sm text-gray-700 transition-all duration-300">
                 <p className="mb-1">Uniwersytet Civitas</p>
