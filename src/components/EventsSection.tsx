@@ -301,17 +301,26 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
           </h2>
           <div className="w-20 h-1 bg-red-500 mx-auto mb-10 transition-all duration-500 hover:w-32"></div>
           <div className="text-base max-w-4xl mx-auto leading-relaxed text-gray-700 mb-8 transition-all duration-500">
-            <p>
-              Wydarzenie jest otwarte, ale jeśli planujesz przyjść – daj nam znać przez krótki formularz, abyśmy mogli przygotować odpowiednią liczbę miejsc i materiałów:{' '}
-              <a
-                href="https://forms.cloud.microsoft/e/s7X6HYHwmM"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 underline break-all"
-              >
-                https://forms.cloud.microsoft/e/s7X6HYHwmM
-              </a>
-            </p>
+           <p>
+  We wrześniu 2025 roku zrealizowaliśmy serię wykładów i warsztatów w ramach kampanii <strong>STOP Znieczulicy na Ulicy</strong>. 
+  W wydarzeniach wzięli udział eksperci z zakresu psychologii społecznej, bezpieczeństwa publicznego i komunikacji kryzysowej. 
+  Zajęcia były otwarte dla wszystkich, a uczestnicy mogli zdobyć praktyczną wiedzę o tym, jak reagować na przemoc i sytuacje zagrożenia.
+</p>
+
+<p>
+  W ramach kampanii odbyły się także szkolenia z pierwszej pomocy i samoobrony, wykłady poświęcone mechanizmowi efektu widza, znieczulicy społecznej oraz temu, jak przełamać strach przed reagowaniem w sytuacjach kryzysowych. 
+  Wszystkie wydarzenia miały charakter bezpłatny i otwarty.
+</p>
+
+<p>
+  Dziś kontynuujemy naszą misję, pracując nad <strong>założeniem fundacji STOP Znieczulicy na Ulicy</strong>, aby rozwijać działania rozpoczęte podczas kampanii. 
+  Planujemy kolejne warsztaty, spotkania edukacyjne i projekty lokalne, które będą wspierać edukację społeczną, empatię i odpowiedzialność za innych.
+</p>
+
+<p>
+  Archiwalne wydarzenia z kampanii znajdziesz poniżej. 
+  Dziękujemy wszystkim uczestnikom i partnerom za wsparcie oraz wspólne działania na rzecz przełamywania obojętności.
+</p>
             <p className="mt-3">*Osobne zapisy obowiązują na:</p>
             <p>szkolenia z samoobrony -&gt; moduł samoobrona</p>
             <p>
