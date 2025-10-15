@@ -10,11 +10,13 @@ const MissionSection: React.FC = () => {
           <div className="w-20 h-1 bg-red-500 mx-auto mb-10 transition-all duration-500 hover:w-32"></div>
           
           <p className="text-base max-w-4xl mx-auto leading-relaxed text-gray-700 text-center mb-6 transition-all duration-500">
-            Kampania ma charakter oddolny i powstała jako odpowiedź na liczne przypadki obojętności wobec przemocy, które obserwujemy zarówno w Polsce, jak i na świecie. To, co dzieje się na naszych oczach – i zbyt często pozostaje bez żadnej odpowiedzi – pokazuje, jak poważnym problemem jest bierność świadków. Celem naszej inicjatywy jest edukacja w zakresie skutecznych, a zarazem bezpiecznych sposobów reagowania w sytuacjach zagrożenia oraz uświadamianie, jak ogromne konsekwencje niesie za sobą brak działania.
+            Pierwsza edycja kampanii odbyła się we wrześniu 2025 roku jako oddolna inicjatywa społeczna. Powstała w odpowiedzi na narastający problem obojętności wobec przemocy i braku reakcji świadków. To, co dzieje się na naszych oczach – i zbyt często pozostaje bez żadnej reakcji – pokazało, jak poważnym wyzwaniem społecznym jest bierność wobec krzywdy innych.
+
+Naszym celem było i nadal jest edukowanie, jak reagować skutecznie i bezpiecznie w sytuacjach zagrożenia, a także uświadamianie, jak duże konsekwencje niesie za sobą brak działania.
           </p>
           
           <p className="text-base max-w-4xl mx-auto leading-relaxed text-gray-700 text-center mb-6 transition-all duration-500">
-            <span className="text-red-500 font-medium">Tworzymy fundację, by wzmacniać działania i zmieniać rzeczywistość na większą skalę. Zostań z nami.</span>
+            <span className="text-red-500 font-medium">Dziś kontynuujemy tę misję, pracując nad założeniem fundacji, która pozwoli nam rozwijać działania rozpoczęte w trakcie kampanii – prowadzić warsztaty, wspierać inicjatywy lokalne i budować kulturę empatii oraz odpowiedzialności społecznej.</span>
           </p>
         </div>
         
