@@ -296,85 +296,61 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
     <section id="events" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-xl md:text-2xl font-bold mb-4 transition-all duration-500">
-  <h2 className="text-xl md:text-2xl font-bold mb-4 text-center transition-all duration-500">
-  Kalendarz – wykłady i warsztaty
-</h2>
+          <h2 className="text-xl md:text-2xl font-bold mb-4 text-center transition-all duration-500">
+            Kalendarz – wykłady i warsztaty
+          </h2>
 
-<div className="w-20 h-1 bg-red-500 mx-auto mb-10 transition-all duration-500 hover:w-32"></div>
+          <div className="w-20 h-1 bg-red-500 mx-auto mb-10 transition-all duration-500 hover:w-32"></div>
 
-<div className="text-base max-w-4xl mx-auto leading-relaxed text-gray-700 mb-8 transition-all duration-500">
-  <p>
-    We wrześniu 2025 roku zrealizowaliśmy serię wykładów i warsztatów w ramach kampanii 
-    <strong className="text-red-600"> STOP znieczulicy na ulicy</strong>. 
-    W wydarzeniach wzięli udział eksperci z zakresu psychologii społecznej, bezpieczeństwa publicznego i komunikacji kryzysowej. 
-    Uczestnicy mogli zdobyć praktyczną wiedzę o tym, jak reagować na przemoc i sytuacje zagrożenia.
-  </p>
+          <div className="text-base max-w-4xl mx-auto leading-relaxed text-gray-700 mb-8 transition-all duration-500">
+            <p>
+              We wrześniu 2025 roku zrealizowaliśmy serię wykładów i warsztatów w ramach kampanii{' '}
+              <strong className="text-red-600">STOP znieczulicy na ulicy</strong>. W wydarzeniach wzięli udział eksperci z
+              zakresu psychologii społecznej, bezpieczeństwa publicznego i komunikacji kryzysowej. Uczestnicy mogli zdobyć
+              praktyczną wiedzę o tym, jak reagować na przemoc i sytuacje zagrożenia.
+            </p>
 
-  <p>
-    W ramach kampanii odbyły się również szkolenia z pierwszej pomocy i samoobrony oraz wykłady poświęcone mechanizmowi efektu widza i znieczulicy społecznej. 
-    Wszystkie wydarzenia były bezpłatne i otwarte dla wszystkich zainteresowanych.
-  </p>
+            <p>
+              W ramach kampanii odbyły się również szkolenia z pierwszej pomocy i samoobrony oraz wykłady poświęcone
+              mechanizmowi efektu widza i znieczulicy społecznej. Wszystkie wydarzenia były bezpłatne i otwarte dla
+              wszystkich zainteresowanych.
+            </p>
 
-  <p>
-    Obecnie kontynuujemy naszą misję, pracując nad 
-    <strong className="text-red-600"> fundacją STOP znieczulicy na ulicy</strong>, 
-    która pozwoli nam rozwijać te działania i organizować kolejne projekty edukacyjne.
-  </p>
+            <p>
+              Obecnie kontynuujemy naszą misję, pracując nad{' '}
+              <strong className="text-red-600">fundacją STOP znieczulicy na ulicy</strong>, która pozwoli nam rozwijać te
+              działania i organizować kolejne projekty edukacyjne.
+            </p>
 
-  <p>
-    Archiwalne wydarzenia z kampanii znajdziesz poniżej. 
-    Dziękujemy wszystkim uczestnikom i partnerom za wspólne działania przeciwko obojętności.
-  </p>
-</div>
+            <p>
+              Archiwalne wydarzenia z kampanii znajdziesz poniżej. Dziękujemy wszystkim uczestnikom i partnerom za wspólne
+              działania przeciwko obojętności.
+            </p>
+          </div>
 
-<div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
-  <div className="text-center bg-white rounded-lg p-8 shadow-sm hover:shadow-lg transition-all duration-500 hover-lift animate-slide-in-left">
-    <div className="flex items-center justify-center mb-4">
-      <Calendar className="text-red-500 mr-3 transition-all duration-300" size={28} />
-      <h3 className="text-lg font-bold transition-all duration-300">
-        Kiedy odbyło się wydarzenie
-      </h3>
-    </div>
-    <p className="text-sm text-gray-700 transition-all duration-300">
-      13 - 14 września
-      <br />
-      20 - 21 września 2025
-    </p>
-  </div>
+          <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
+            <div className="text-center bg-white rounded-lg p-8 shadow-sm hover:shadow-lg transition-all duration-500 hover-lift animate-slide-in-left">
+              <div className="flex items-center justify-center mb-4">
+                <Calendar className="text-red-500 mr-3 transition-all duration-300" size={28} />
+                <h3 className="text-lg font-bold transition-all duration-300">Kiedy odbyło się wydarzenie</h3>
+              </div>
+              <p className="text-sm text-gray-700 transition-all duration-300">
+                13 - 14 września
+                <br />
+                20 - 21 września 2025
+              </p>
+            </div>
 
-  <div className="text-center bg-white rounded-lg p-8 shadow-sm hover:shadow-lg transition-all duration-500 hover-lift animate-slide-in-right">
-    <div className="flex items-center justify-center mb-4">
-      <MapPin className="text-red-500 mr-3 transition-all duration-300" size={28} />
-      <h3 className="text-lg font-bold transition-all duration-300">
-        Gdzie odbyło się wydarzenie?
-      </h3>
-    </div>
-    <div className="text-sm text-gray-700 transition-all duration-300">
-      <p className="mb-1">Uniwersytet Civitas</p>
-      <p className="mb-1">Plac Defilad 1, Warszawa</p>
-      <p className="mb-3">12 piętro, Pałac Kultury i Nauki</p>
-      <p className="text-sm text-gray-500">
-        *Lokalizacja przyjazna osobom z niepełnosprawnościami.
-      </p>
-    </div>
             <div className="text-center bg-white rounded-lg p-8 shadow-sm hover:shadow-lg transition-all duration-500 hover-lift animate-slide-in-right">
               <div className="flex items-center justify-center mb-4">
-                <MapPin
-                  className="text-red-500 mr-3 transition-all duration-300"
-                  size={28}
-                />
-                <h3 className="text-lg font-bold transition-all duration-300">
-                  Gdzie odbyło się wydarzenie?
-                </h3>
+                <MapPin className="text-red-500 mr-3 transition-all duration-300" size={28} />
+                <h3 className="text-lg font-bold transition-all duration-300">Gdzie odbyło się wydarzenie?</h3>
               </div>
               <div className="text-sm text-gray-700 transition-all duration-300">
                 <p className="mb-1">Uniwersytet Civitas</p>
                 <p className="mb-1">Plac Defilad 1, Warszawa</p>
                 <p className="mb-3">12 piętro, Pałac Kultury i Nauki</p>
-                <p className="text-sm text-gray-500">
-                  *Lokalizacja przyjazna osobom z niepełnosprawnościami.
-                </p>
+                <p className="text-sm text-gray-500">*Lokalizacja przyjazna osobom z niepełnosprawnościami.</p>
               </div>
             </div>
           </div>
