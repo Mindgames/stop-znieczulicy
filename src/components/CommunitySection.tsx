@@ -127,40 +127,6 @@ const CommunitySection: React.FC = () => {
           ))}
         </div>
 
-        <div className="mt-12 text-center animate-fade-in">
-          <div className="text-base mb-4 space-y-3 transition-all duration-300 leading-relaxed text-gray-700">
-            <p>
-              Dołącz do naszej społeczności i bądź na bieżąco z działaniami kampanii i fundacji.
-            </p>
-            <p>
-              Na naszych profilach publikujemy materiały edukacyjne, relacje z wydarzeń i historie osób,
-              które nie przeszły obojętnie wobec krzywdy innych.
-            </p>
-            <p>
-              Obserwuj nas i pomóż szerzyć ideę empatii i odpowiedzialności społecznej.
-            </p>
-          </div>
-          <div className="flex justify-center space-x-4">
-            <a
-              href="https://www.instagram.com/stop_znieczulicy_kampania/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-full text-sm hover:opacity-90 transition-all duration-300 hover-lift hover:shadow-lg transform hover:scale-105"
-            >
-              <Instagram size={16} className="mr-2" />
-              Instagram
-            </a>
-            <a
-              href="https://www.facebook.com/profile.php?id=61579932839803"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center bg-[#1877F2] text-white px-4 py-2 rounded-full text-sm hover:bg-[#0F5DC8] transition-all duration-300 hover-lift hover:shadow-lg transform hover:scale-105"
-            >
-              <Facebook size={16} className="mr-2" />
-              Facebook
-            </a>
-          </div>
-        </div>
       </div>
     </section>
   );
