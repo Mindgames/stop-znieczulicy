@@ -915,7 +915,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
                   href="https://docs.google.com/forms/d/e/1FAIpQLSfjarfRYK9NclBRl4G6eq8geNL8PQbfYDptZKwi0vWjVidzGw/viewform?usp=header"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 hover-lift hover:shadow-lg transform hover:scale-105"
+                  className="inline-block bg-red-500 hover:bg-red-500 text-white px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 hover-lift hover:shadow-lg transform hover:scale-105"
                 >
                   Podziel się historią
                 </a>
