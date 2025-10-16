@@ -545,8 +545,8 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
               </h3>
               <div className="space-y-3 text-sm text-gray-700 mb-6 transition-all duration-300">
                 <p>
-                  Dołącz do naszej społeczności i bądź na bieżąco z działaniami kampanii{' '}
-                  <strong className="text-red-600">STOP znieczulicy na ulicy</strong>.
+                  Dołącz do naszej społeczności i bądź na bieżąco z działaniami kampanii i fundacji{' '}
+                  <strong className="text-red-500">STOP znieczulicy na ulicy</strong>.
                 </p>
                 <p>
                   Na naszych profilach publikujemy materiały edukacyjne, relacje z wydarzeń i historie osób, które nie przeszły
@@ -843,7 +843,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
                       <button
                         type="submit"
                         disabled={isSubmitting}
-                        className="flex-1 px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 transition-colors disabled:opacity-50"
+                        className="flex-1 px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-500 transition-colors disabled:opacity-50"
                       >
                         {isSubmitting ? "Wysyłanie..." : "Wyślij zgłoszenie"}
                       </button>
