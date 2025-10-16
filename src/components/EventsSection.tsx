@@ -384,19 +384,14 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
                         key={lectureIndex}
                         className="border-b border-gray-100 last:border-0 pb-4 last:pb-0 transition-all duration-300"
                       >
-                          <div
-                            className="cursor-pointer hover:bg-gray-50 p-2 rounded text-center transition-all duration-300"
-                            onClick={() => {
-                              if (lecture.description.length > 0) {
-                                toggleLecture(lecture.id);
-                              }
-                            }}
-                          >
-                          <div className="mb-2">
-                            <span className="font-bold text-red-500 text-sm">
-                              {lecture.time}
-                            </span>
-                          </div>
+                        <div
+                          className="cursor-pointer hover:bg-gray-50 p-2 rounded text-center transition-all duration-300"
+                          onClick={() => {
+                            if (lecture.description.length > 0) {
+                              toggleLecture(lecture.id);
+                            }
+                          }}
+                        >
                           <div className="mb-2">
                             <p className="text-xs font-medium text-gray-700 transition-all duration-300">
                               {lecture.speaker}
@@ -480,11 +475,6 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
                               }
                             }}
                           >
-                          <div className="mb-2">
-                            <span className="font-bold text-red-500 text-sm">
-                              {lecture.time}
-                            </span>
-                          </div>
                           <div className="mb-2">
                             <p className="text-xs font-medium text-gray-700 transition-all duration-300">
                               {lecture.speaker}
@@ -607,7 +597,6 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
                     🔸 Warszawa - Wola - 2, 9, 16 i 23 września 2025
                   </p>
                   <p className="text-sm mb-1">SM ul. Kajetana Sołtyka 8/10</p>
-                  <p className="text-sm">⏰ godziny: 17:00-18:30</p>
                 </div>
 
                 <div className="bg-gray-50 p-4 rounded-lg">
@@ -617,7 +606,6 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
                   <p className="text-sm mb-1">
                     Dragon's Den, ul. Cybernetyki 7A, bud. Luminar, 2 piętro
                   </p>
-                  <p className="text-sm">⏰ godziny: 19:00-20:30</p>
                 </div>
 
                 <div className="bg-gray-50 p-4 rounded-lg">
@@ -626,12 +614,6 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
                   </p>
                   <p className="text-sm mb-1">
                     Warszawskie Laboratorium Innowacji Społecznych „Synergia" ul. Markowska 16
-                  </p>
-                  <p className="text-sm mb-1">
-                    ⏰ godziny: 18 i 25.09 (czwartki) godzina 19:30
-                  </p>
-                  <p className="text-sm mb-1">
-                    19 i 26.09 (piątki) godzina 18:00
                   </p>
                   <p className="text-sm font-bold">
                     Zapisy do Synergii przyjmowane są mailowo lub telefonicznie:
