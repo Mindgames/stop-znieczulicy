@@ -534,7 +534,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
             <h3 className="text-lg font-bold mb-4 text-center transition-all duration-300">
               Bezpłatne kursy samoobrony <span className="text-red-500">dla kobiet</span>
             </h3>
-            <div className="space-y-4 text-sm text-gray-700 transition-all duration-300">
+            <div className="space-y-4 text-sm text-gray-600 transition-all duration-300">
               <p className="text-center">
                 We wrześniu 2025 roku, wspólnie ze Strażą Miejską m.st. Warszawy, Dragon’s Den Fight Club oraz Papaj Gym,
                 zorganizowaliśmy serię bezpłatnych kursów samoobrony dla kobiet.
@@ -543,47 +543,11 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
                 Szkolenia odbyły się na Woli, Mokotowie i Pradze Północ, gromadząc dziesiątki uczestniczek, które zdobyły
                 praktyczne umiejętności reagowania i obrony w sytuacjach zagrożenia.
               </p>
-
-
-              <div className="space-y-4">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <p className="text-sm font-bold mb-2">
-                    🔸 Warszawa - Wola - 2, 9, 16 i 23 września 2025
-                  </p>
-                  <p className="text-sm mb-1">SM ul. Kajetana Sołtyka 8/10</p>
-                </div>
-
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <p className="text-sm font-bold mb-2">
-                    🔸 Warszawa - Mokotów - 2, 9, 16, 23 września 2025
-                  </p>
-                  <p className="text-sm mb-1">
-                    Dragon's Den, ul. Cybernetyki 7A, bud. Luminar, 2 piętro
-                  </p>
-                </div>
-
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <p className="text-sm font-bold mb-2">
-                    🔸 Warszawa - Praga Północ - 18, 19 i 25, 26 września 2025
-                  </p>
-                  <p className="text-sm mb-1">
-                    Warszawskie Laboratorium Innowacji Społecznych „Synergia" ul. Markowska 16
-                  </p>
-                  <p className="text-sm font-bold">
-                    Zapisy do Synergii przyjmowane są mailowo lub telefonicznie:
-
-                  </p>
-                  <p className="text-sm mt-1">
-                    synergia.lokalna@um.warszawa.pl
-                    (22)2776212, (22)2776217
-                  </p>
-                </div>
-              </div>
-
-              <p className="text-sm transition-all duration-300">
-                Decyduje kolejność zgłoszeń - każde szkolenie będzie wymagało
-                potwierdzenia przez SMS.
-
+              <p className="text-center">
+                Kursy cieszyły się dużym zainteresowaniem - dlatego planujemy ich kolejne edycje w ramach fundacji.
+              </p>
+              <p className="text-center">
+                Zachęcamy do śledzenia naszych kanałów, by nie przegapić nowych terminów.
               </p>
             </div>
           </div>
