@@ -768,12 +768,12 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
               publicznej?
             </h3>
             <div className="space-y-4 text-center">
-              <p className="text-sm transition-all duration-300">
+              <p className="text-sm text-gray-700 transition-all duration-300">
                 Czy doświadczyłeś podobnej sytuacji, w której nikt nie
                 zareagował – albo przeciwnie, ktoś stanął w Twojej obronie?
               </p>
 
-              <p className="text-sm transition-all duration-300">
+              <p className="text-sm text-gray-700 transition-all duration-300">
                 Twoja historia może pomóc innym zrozumieć, jak ważne jest
                 reagowanie. Wybrane, anonimowe relacje opublikujemy w
                 materiałach kampanii, by wspólnie{" "}
