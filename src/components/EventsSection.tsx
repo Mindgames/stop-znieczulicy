@@ -311,7 +311,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
           <div className="text-base max-w-4xl mx-auto leading-relaxed text-gray-700 mb-8 transition-all duration-500">
             <p>
               We wrześniu 2025 roku zrealizowaliśmy serię wykładów i warsztatów w ramach kampanii{' '}
-              <strong className="text-red-600">STOP znieczulicy na ulicy</strong>. W wydarzeniach wzięli udział eksperci z
+              <strong className="text-red-500">STOP znieczulicy na ulicy</strong>. W wydarzeniach wzięli udział eksperci z
               zakresu psychologii społecznej, bezpieczeństwa publicznego i komunikacji kryzysowej. Uczestnicy mogli zdobyć
               praktyczną wiedzę o tym, jak reagować na przemoc i sytuacje zagrożenia.
             </p>
@@ -324,7 +324,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
 
             <p>
               Obecnie kontynuujemy naszą misję, pracując nad{' '}
-              <strong className="text-red-600">fundacją STOP znieczulicy na ulicy</strong>, która pozwoli nam rozwijać te
+              <strong className="text-red-500">fundacją STOP znieczulicy na ulicy</strong>, która pozwoli nam rozwijać te
               działania i organizować kolejne projekty edukacyjne.
             </p>
 
