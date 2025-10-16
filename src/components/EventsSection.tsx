@@ -546,7 +546,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
               <div className="space-y-3 text-sm text-gray-700 mb-6 transition-all duration-300">
                 <p>
                   Dołącz do naszej społeczności i bądź na bieżąco z działaniami kampanii{' '}
-                  <strong className="text-red-600">STOP Znieczulicy na Ulicy</strong>.
+                  <strong className="text-red-600">STOP znieczulicy na ulicy</strong>.
                 </p>
                 <p>
                   Na naszych profilach publikujemy materiały edukacyjne, relacje z wydarzeń i historie osób, które nie przeszły
