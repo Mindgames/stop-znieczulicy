@@ -550,7 +550,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
                 </p>
                 <p>
                   Na naszych profilach publikujemy materiały edukacyjne, relacje z wydarzeń i historie osób, które nie przeszły
-                  obojętnie wobec krzywdy innych.
+                  obojętnie wobec krzywdy.
                 </p>
                 <p>Obserwuj nas i pomóż szerzyć ideę empatii oraz odpowiedzialności społecznej.</p>
               </div>
