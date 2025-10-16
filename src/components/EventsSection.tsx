@@ -531,7 +531,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
           ></img>
 
           <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-sm p-8 hover:shadow-lg transition-all duration-500 hover-lift animate-fade-in">
-            <h3 className="text-xl font-bold mb-4 text-center transition-all duration-300">
+            <h3 className="text-2xl font-bold mb-4 text-center transition-all duration-300">
               Bezpłatne kursy samoobrony <span className="text-red-500">dla kobiet</span>
             </h3>
             <div className="space-y-4 text-sm text-gray-700 transition-all duration-300">
