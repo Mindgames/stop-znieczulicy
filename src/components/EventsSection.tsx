@@ -536,12 +536,10 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
             </h3>
             <div className="space-y-4 text-sm text-gray-700 transition-all duration-300">
               <p className="text-center">
-                We wrześniu 2025 roku, wspólnie ze Strażą Miejską m.st. Warszawy, Dragon’s Den Fight Club oraz Papaj Gym,&nbsp;
-                zorganizowaliśmy serię bezpłatnych kursów samoobrony dla kobiet.
+                We wrześniu 2025 roku, wspólnie ze Strażą Miejską m.st. Warszawy, Dragon’s Den Fight Club oraz Papaj Gym,&nbsp;zorganizowaliśmy serię bezpłatnych kursów samoobrony dla kobiet.
               </p>
               <p className="text-center">
-                Szkolenia odbyły się na Woli, Mokotowie i Pradze Północ, gromadząc dziesiątki uczestniczek,&nbsp; które zdobyły
-                praktyczne umiejętności reagowania i obrony w sytuacjach zagrożenia.
+                Szkolenia odbyły się na Woli, Mokotowie i Pradze Północ, gromadząc dziesiątki uczestniczek,&nbsp;które zdobyły praktyczne umiejętności reagowania i obrony w sytuacjach zagrożenia.
               </p>
               <p className="text-center">
                 Kursy cieszyły się dużym zainteresowaniem - dlatego planujemy ich kolejne edycje w ramach fundacji.
