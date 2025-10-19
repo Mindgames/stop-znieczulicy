@@ -534,7 +534,7 @@ Data zgłoszenia: ${new Date().toLocaleString("pl-PL")}
             <h3 className="text-2xl font-bold mb-4 text-center transition-all duration-300">
               Bezpłatne kursy samoobrony <span className="text-red-500">dla kobiet</span>
             </h3>
-            <div className="space-y-4 text-sm text-gray-700 transition-all duration-300">
+            <div className="space-y-4 text-sm text-gray-600 transition-all duration-300">
               <p className="text-center">
                 We wrześniu 2025 roku, wspólnie ze Strażą Miejską m.st. Warszawy, Dragon’s Den Fight Club oraz Papaj Gym,<br />zorganizowaliśmy serię bezpłatnych kursów samoobrony dla kobiet.
               </p>
