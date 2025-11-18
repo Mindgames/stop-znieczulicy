@@ -10,7 +10,6 @@ const Footer: React.FC = () => {
           <div className="animate-slide-in-left">
             <h3 className="text-base font-bold mb-3 transition-all duration-300">STOP znieczulicy na ulicy</h3>
             <p className="text-sm text-gray-300 mb-3 transition-all duration-300">
-              13, 14 - 20, 21 września 2025<br />
               Uniwersytet Civitas<br />
               Plac Defilad 1, 12 piętro PKiN<br />
               * lokalizacja przyjazna dla osób z niepełnosprawnościami.
